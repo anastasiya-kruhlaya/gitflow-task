@@ -1,0 +1,2 @@
+Name Section
+Asus ROG Zephyrus G14 GA401IU-HE021T-BE AZERTY
