@@ -14,4 +14,7 @@ Size: height x width x depth (in mm): 20 x 325 x 222 ( = 0.79 x 12.8 x 8.74 in)
 Battery: 76 Wh
 Additional features: Keyboard Light -> yes
 Weight: 1.7 kg ( = 59.97 oz / 3.75 pounds)
+Photos with desciptions section
+![alt text](image.png)
+*Asus ROG Zephyrus G14 GA401IU-HE021T*
 
