@@ -17,4 +17,10 @@ Weight: 1.7 kg ( = 59.97 oz / 3.75 pounds)
 Photos with desciptions section
 ![alt text](image.png)
 *Asus ROG Zephyrus G14 GA401IU-HE021T*
-
+Similar devices section
+![alt text](image-3.png)
+*Razer Blade 14*
+![alt text](image-1.png)
+*Lenovo Legion Slim 5*
+![alt text](image-2.png)
+*ASUS TUF Gaming A15*
