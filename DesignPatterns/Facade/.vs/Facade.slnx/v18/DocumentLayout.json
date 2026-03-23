@@ -1,0 +1,139 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Internship\\gitflow-task\\DesignPatterns\\Facade\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{ACB9F8AA-5FD7-4630-26A5-5AACC53C4F2C}|Facade\\Facade.csproj|c:\\internship\\gitflow-task\\designpatterns\\facade\\facade\\videofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ACB9F8AA-5FD7-4630-26A5-5AACC53C4F2C}|Facade\\Facade.csproj|solutionrelative:facade\\videofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACB9F8AA-5FD7-4630-26A5-5AACC53C4F2C}|Facade\\Facade.csproj|c:\\internship\\gitflow-task\\designpatterns\\facade\\facade\\simpleconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ACB9F8AA-5FD7-4630-26A5-5AACC53C4F2C}|Facade\\Facade.csproj|solutionrelative:facade\\simpleconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACB9F8AA-5FD7-4630-26A5-5AACC53C4F2C}|Facade\\Facade.csproj|c:\\internship\\gitflow-task\\designpatterns\\facade\\facade\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ACB9F8AA-5FD7-4630-26A5-5AACC53C4F2C}|Facade\\Facade.csproj|solutionrelative:facade\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACB9F8AA-5FD7-4630-26A5-5AACC53C4F2C}|Facade\\Facade.csproj|c:\\internship\\gitflow-task\\designpatterns\\facade\\facade\\videoconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ACB9F8AA-5FD7-4630-26A5-5AACC53C4F2C}|Facade\\Facade.csproj|solutionrelative:facade\\videoconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACB9F8AA-5FD7-4630-26A5-5AACC53C4F2C}|Facade\\Facade.csproj|c:\\internship\\gitflow-task\\designpatterns\\facade\\facade\\codec.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ACB9F8AA-5FD7-4630-26A5-5AACC53C4F2C}|Facade\\Facade.csproj|solutionrelative:facade\\codec.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACB9F8AA-5FD7-4630-26A5-5AACC53C4F2C}|Facade\\Facade.csproj|c:\\internship\\gitflow-task\\designpatterns\\facade\\facade\\oggcodec .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ACB9F8AA-5FD7-4630-26A5-5AACC53C4F2C}|Facade\\Facade.csproj|solutionrelative:facade\\oggcodec .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACB9F8AA-5FD7-4630-26A5-5AACC53C4F2C}|Facade\\Facade.csproj|c:\\internship\\gitflow-task\\designpatterns\\facade\\facade\\mpeg4codec.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ACB9F8AA-5FD7-4630-26A5-5AACC53C4F2C}|Facade\\Facade.csproj|solutionrelative:facade\\mpeg4codec.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MPEG4Codec.cs",
+              "DocumentMoniker": "C:\\Internship\\gitflow-task\\DesignPatterns\\Facade\\Facade\\MPEG4Codec.cs",
+              "RelativeDocumentMoniker": "Facade\\MPEG4Codec.cs",
+              "ToolTip": "C:\\Internship\\gitflow-task\\DesignPatterns\\Facade\\Facade\\MPEG4Codec.cs",
+              "RelativeToolTip": "Facade\\MPEG4Codec.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-20T14:20:57.186Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "OGGCodec .cs",
+              "DocumentMoniker": "C:\\Internship\\gitflow-task\\DesignPatterns\\Facade\\Facade\\OGGCodec .cs",
+              "RelativeDocumentMoniker": "Facade\\OGGCodec .cs",
+              "ToolTip": "C:\\Internship\\gitflow-task\\DesignPatterns\\Facade\\Facade\\OGGCodec .cs",
+              "RelativeToolTip": "Facade\\OGGCodec .cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-20T14:20:57.123Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "VideoConverter.cs",
+              "DocumentMoniker": "C:\\Internship\\gitflow-task\\DesignPatterns\\Facade\\Facade\\VideoConverter.cs",
+              "RelativeDocumentMoniker": "Facade\\VideoConverter.cs",
+              "ToolTip": "C:\\Internship\\gitflow-task\\DesignPatterns\\Facade\\Facade\\VideoConverter.cs",
+              "RelativeToolTip": "Facade\\VideoConverter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-20T14:20:57.063Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Codec.cs",
+              "DocumentMoniker": "C:\\Internship\\gitflow-task\\DesignPatterns\\Facade\\Facade\\Codec.cs",
+              "RelativeDocumentMoniker": "Facade\\Codec.cs",
+              "ToolTip": "C:\\Internship\\gitflow-task\\DesignPatterns\\Facade\\Facade\\Codec.cs",
+              "RelativeToolTip": "Facade\\Codec.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-20T14:20:56.99Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Internship\\gitflow-task\\DesignPatterns\\Facade\\Facade\\Program.cs",
+              "RelativeDocumentMoniker": "Facade\\Program.cs",
+              "ToolTip": "C:\\Internship\\gitflow-task\\DesignPatterns\\Facade\\Facade\\Program.cs",
+              "RelativeToolTip": "Facade\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-20T08:51:46.681Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "VideoFile.cs",
+              "DocumentMoniker": "C:\\Internship\\gitflow-task\\DesignPatterns\\Facade\\Facade\\VideoFile.cs",
+              "RelativeDocumentMoniker": "Facade\\VideoFile.cs",
+              "ToolTip": "C:\\Internship\\gitflow-task\\DesignPatterns\\Facade\\Facade\\VideoFile.cs",
+              "RelativeToolTip": "Facade\\VideoFile.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwBEAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-20T14:20:55.207Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SimpleConverter.cs",
+              "DocumentMoniker": "C:\\Internship\\gitflow-task\\DesignPatterns\\Facade\\Facade\\SimpleConverter.cs",
+              "RelativeDocumentMoniker": "Facade\\SimpleConverter.cs",
+              "ToolTip": "C:\\Internship\\gitflow-task\\DesignPatterns\\Facade\\Facade\\SimpleConverter.cs",
+              "RelativeToolTip": "Facade\\SimpleConverter.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAgwB0AAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-20T14:20:57.247Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
