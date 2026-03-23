@@ -1,0 +1,326 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Internship\\gitflow-task\\DesignPatterns\\AbstractFactory\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8FC1E637-63CC-6664-8009-47A487A2AF0F}|AbstractFactory\\AbstractFactory.csproj|c:\\internship\\gitflow-task\\designpatterns\\abstractfactory\\abstractfactory\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FC1E637-63CC-6664-8009-47A487A2AF0F}|AbstractFactory\\AbstractFactory.csproj|solutionrelative:abstractfactory\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FC1E637-63CC-6664-8009-47A487A2AF0F}|AbstractFactory\\AbstractFactory.csproj|c:\\internship\\gitflow-task\\designpatterns\\abstractfactory\\abstractfactory\\abstractobjects\\isuspension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FC1E637-63CC-6664-8009-47A487A2AF0F}|AbstractFactory\\AbstractFactory.csproj|solutionrelative:abstractfactory\\abstractobjects\\isuspension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FC1E637-63CC-6664-8009-47A487A2AF0F}|AbstractFactory\\AbstractFactory.csproj|c:\\internship\\gitflow-task\\designpatterns\\abstractfactory\\abstractfactory\\conreteobjects\\standart\\standartsuspension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FC1E637-63CC-6664-8009-47A487A2AF0F}|AbstractFactory\\AbstractFactory.csproj|solutionrelative:abstractfactory\\conreteobjects\\standart\\standartsuspension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FC1E637-63CC-6664-8009-47A487A2AF0F}|AbstractFactory\\AbstractFactory.csproj|c:\\internship\\gitflow-task\\designpatterns\\abstractfactory\\abstractfactory\\icarfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FC1E637-63CC-6664-8009-47A487A2AF0F}|AbstractFactory\\AbstractFactory.csproj|solutionrelative:abstractfactory\\icarfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FC1E637-63CC-6664-8009-47A487A2AF0F}|AbstractFactory\\AbstractFactory.csproj|c:\\internship\\gitflow-task\\designpatterns\\abstractfactory\\abstractfactory\\conreteobjects\\economy\\economyengine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FC1E637-63CC-6664-8009-47A487A2AF0F}|AbstractFactory\\AbstractFactory.csproj|solutionrelative:abstractfactory\\conreteobjects\\economy\\economyengine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FC1E637-63CC-6664-8009-47A487A2AF0F}|AbstractFactory\\AbstractFactory.csproj|c:\\internship\\gitflow-task\\designpatterns\\abstractfactory\\abstractfactory\\concretefactories\\economyfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FC1E637-63CC-6664-8009-47A487A2AF0F}|AbstractFactory\\AbstractFactory.csproj|solutionrelative:abstractfactory\\concretefactories\\economyfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FC1E637-63CC-6664-8009-47A487A2AF0F}|AbstractFactory\\AbstractFactory.csproj|c:\\internship\\gitflow-task\\designpatterns\\abstractfactory\\abstractfactory\\conreteobjects\\economy\\economywheeldiameter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FC1E637-63CC-6664-8009-47A487A2AF0F}|AbstractFactory\\AbstractFactory.csproj|solutionrelative:abstractfactory\\conreteobjects\\economy\\economywheeldiameter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FC1E637-63CC-6664-8009-47A487A2AF0F}|AbstractFactory\\AbstractFactory.csproj|c:\\internship\\gitflow-task\\designpatterns\\abstractfactory\\abstractfactory\\conreteobjects\\economy\\economysuspension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FC1E637-63CC-6664-8009-47A487A2AF0F}|AbstractFactory\\AbstractFactory.csproj|solutionrelative:abstractfactory\\conreteobjects\\economy\\economysuspension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FC1E637-63CC-6664-8009-47A487A2AF0F}|AbstractFactory\\AbstractFactory.csproj|c:\\internship\\gitflow-task\\designpatterns\\abstractfactory\\abstractfactory\\concretefactories\\extrafactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FC1E637-63CC-6664-8009-47A487A2AF0F}|AbstractFactory\\AbstractFactory.csproj|solutionrelative:abstractfactory\\concretefactories\\extrafactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FC1E637-63CC-6664-8009-47A487A2AF0F}|AbstractFactory\\AbstractFactory.csproj|c:\\internship\\gitflow-task\\designpatterns\\abstractfactory\\abstractfactory\\concretefactories\\standartfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FC1E637-63CC-6664-8009-47A487A2AF0F}|AbstractFactory\\AbstractFactory.csproj|solutionrelative:abstractfactory\\concretefactories\\standartfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FC1E637-63CC-6664-8009-47A487A2AF0F}|AbstractFactory\\AbstractFactory.csproj|c:\\internship\\gitflow-task\\designpatterns\\abstractfactory\\abstractfactory\\conreteobjects\\standart\\standartwheeldiameter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FC1E637-63CC-6664-8009-47A487A2AF0F}|AbstractFactory\\AbstractFactory.csproj|solutionrelative:abstractfactory\\conreteobjects\\standart\\standartwheeldiameter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FC1E637-63CC-6664-8009-47A487A2AF0F}|AbstractFactory\\AbstractFactory.csproj|c:\\internship\\gitflow-task\\designpatterns\\abstractfactory\\abstractfactory\\abstractfactory.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{8FC1E637-63CC-6664-8009-47A487A2AF0F}|AbstractFactory\\AbstractFactory.csproj|solutionrelative:abstractfactory\\abstractfactory.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FC1E637-63CC-6664-8009-47A487A2AF0F}|AbstractFactory\\AbstractFactory.csproj|c:\\internship\\gitflow-task\\designpatterns\\abstractfactory\\abstractfactory\\abstractobjects\\iwheeldiameter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FC1E637-63CC-6664-8009-47A487A2AF0F}|AbstractFactory\\AbstractFactory.csproj|solutionrelative:abstractfactory\\abstractobjects\\iwheeldiameter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FC1E637-63CC-6664-8009-47A487A2AF0F}|AbstractFactory\\AbstractFactory.csproj|c:\\internship\\gitflow-task\\designpatterns\\abstractfactory\\abstractfactory\\conreteobjects\\standart\\standartengine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FC1E637-63CC-6664-8009-47A487A2AF0F}|AbstractFactory\\AbstractFactory.csproj|solutionrelative:abstractfactory\\conreteobjects\\standart\\standartengine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FC1E637-63CC-6664-8009-47A487A2AF0F}|AbstractFactory\\AbstractFactory.csproj|c:\\internship\\gitflow-task\\designpatterns\\abstractfactory\\abstractfactory\\conreteobjects\\extra\\extrawheeldiameter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FC1E637-63CC-6664-8009-47A487A2AF0F}|AbstractFactory\\AbstractFactory.csproj|solutionrelative:abstractfactory\\conreteobjects\\extra\\extrawheeldiameter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FC1E637-63CC-6664-8009-47A487A2AF0F}|AbstractFactory\\AbstractFactory.csproj|c:\\internship\\gitflow-task\\designpatterns\\abstractfactory\\abstractfactory\\conreteobjects\\extra\\extrasuspension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FC1E637-63CC-6664-8009-47A487A2AF0F}|AbstractFactory\\AbstractFactory.csproj|solutionrelative:abstractfactory\\conreteobjects\\extra\\extrasuspension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FC1E637-63CC-6664-8009-47A487A2AF0F}|AbstractFactory\\AbstractFactory.csproj|c:\\internship\\gitflow-task\\designpatterns\\abstractfactory\\abstractfactory\\conreteobjects\\extra\\extraengine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FC1E637-63CC-6664-8009-47A487A2AF0F}|AbstractFactory\\AbstractFactory.csproj|solutionrelative:abstractfactory\\conreteobjects\\extra\\extraengine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FC1E637-63CC-6664-8009-47A487A2AF0F}|AbstractFactory\\AbstractFactory.csproj|c:\\internship\\gitflow-task\\designpatterns\\abstractfactory\\abstractfactory\\abstractobjects\\iengine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FC1E637-63CC-6664-8009-47A487A2AF0F}|AbstractFactory\\AbstractFactory.csproj|solutionrelative:abstractfactory\\abstractobjects\\iengine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Internship\\gitflow-task\\DesignPatterns\\AbstractFactory\\AbstractFactory\\Program.cs",
+              "RelativeDocumentMoniker": "AbstractFactory\\Program.cs",
+              "ToolTip": "C:\\Internship\\gitflow-task\\DesignPatterns\\AbstractFactory\\AbstractFactory\\Program.cs*",
+              "RelativeToolTip": "AbstractFactory\\Program.cs*",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAYwA0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-19T09:07:40.052Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "EconomyWheelDiameter.cs",
+              "DocumentMoniker": "C:\\Internship\\gitflow-task\\DesignPatterns\\AbstractFactory\\AbstractFactory\\ConreteObjects\\Economy\\EconomyWheelDiameter.cs",
+              "RelativeDocumentMoniker": "AbstractFactory\\ConreteObjects\\Economy\\EconomyWheelDiameter.cs",
+              "ToolTip": "C:\\Internship\\gitflow-task\\DesignPatterns\\AbstractFactory\\AbstractFactory\\ConreteObjects\\Economy\\EconomyWheelDiameter.cs",
+              "RelativeToolTip": "AbstractFactory\\ConreteObjects\\Economy\\EconomyWheelDiameter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-19T10:50:19.904Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "EconomyFactory.cs",
+              "DocumentMoniker": "C:\\Internship\\gitflow-task\\DesignPatterns\\AbstractFactory\\AbstractFactory\\ConcreteFactories\\EconomyFactory.cs",
+              "RelativeDocumentMoniker": "AbstractFactory\\ConcreteFactories\\EconomyFactory.cs",
+              "ToolTip": "C:\\Internship\\gitflow-task\\DesignPatterns\\AbstractFactory\\AbstractFactory\\ConcreteFactories\\EconomyFactory.cs",
+              "RelativeToolTip": "AbstractFactory\\ConcreteFactories\\EconomyFactory.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-19T09:46:43.211Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EconomyEngine.cs",
+              "DocumentMoniker": "C:\\Internship\\gitflow-task\\DesignPatterns\\AbstractFactory\\AbstractFactory\\ConreteObjects\\Economy\\EconomyEngine.cs",
+              "RelativeDocumentMoniker": "AbstractFactory\\ConreteObjects\\Economy\\EconomyEngine.cs",
+              "ToolTip": "C:\\Internship\\gitflow-task\\DesignPatterns\\AbstractFactory\\AbstractFactory\\ConreteObjects\\Economy\\EconomyEngine.cs",
+              "RelativeToolTip": "AbstractFactory\\ConreteObjects\\Economy\\EconomyEngine.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-19T10:36:31.362Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ICarFactory.cs",
+              "DocumentMoniker": "C:\\Internship\\gitflow-task\\DesignPatterns\\AbstractFactory\\AbstractFactory\\ICarFactory.cs",
+              "RelativeDocumentMoniker": "AbstractFactory\\ICarFactory.cs",
+              "ToolTip": "C:\\Internship\\gitflow-task\\DesignPatterns\\AbstractFactory\\AbstractFactory\\ICarFactory.cs",
+              "RelativeToolTip": "AbstractFactory\\ICarFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-19T09:43:02.963Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "StandartSuspension.cs",
+              "DocumentMoniker": "C:\\Internship\\gitflow-task\\DesignPatterns\\AbstractFactory\\AbstractFactory\\ConreteObjects\\Standart\\StandartSuspension.cs",
+              "RelativeDocumentMoniker": "AbstractFactory\\ConreteObjects\\Standart\\StandartSuspension.cs",
+              "ToolTip": "C:\\Internship\\gitflow-task\\DesignPatterns\\AbstractFactory\\AbstractFactory\\ConreteObjects\\Standart\\StandartSuspension.cs",
+              "RelativeToolTip": "AbstractFactory\\ConreteObjects\\Standart\\StandartSuspension.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-19T10:52:31.667Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ISuspension.cs",
+              "DocumentMoniker": "C:\\Internship\\gitflow-task\\DesignPatterns\\AbstractFactory\\AbstractFactory\\AbstractObjects\\ISuspension.cs",
+              "RelativeDocumentMoniker": "AbstractFactory\\AbstractObjects\\ISuspension.cs",
+              "ToolTip": "C:\\Internship\\gitflow-task\\DesignPatterns\\AbstractFactory\\AbstractFactory\\AbstractObjects\\ISuspension.cs",
+              "RelativeToolTip": "AbstractFactory\\AbstractObjects\\ISuspension.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-19T10:40:06.69Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "EconomySuspension.cs",
+              "DocumentMoniker": "C:\\Internship\\gitflow-task\\DesignPatterns\\AbstractFactory\\AbstractFactory\\ConreteObjects\\Economy\\EconomySuspension.cs",
+              "RelativeDocumentMoniker": "AbstractFactory\\ConreteObjects\\Economy\\EconomySuspension.cs",
+              "ToolTip": "C:\\Internship\\gitflow-task\\DesignPatterns\\AbstractFactory\\AbstractFactory\\ConreteObjects\\Economy\\EconomySuspension.cs",
+              "RelativeToolTip": "AbstractFactory\\ConreteObjects\\Economy\\EconomySuspension.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-19T10:50:12.537Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ExtraFactory.cs",
+              "DocumentMoniker": "C:\\Internship\\gitflow-task\\DesignPatterns\\AbstractFactory\\AbstractFactory\\ConcreteFactories\\ExtraFactory.cs",
+              "RelativeDocumentMoniker": "AbstractFactory\\ConcreteFactories\\ExtraFactory.cs",
+              "ToolTip": "C:\\Internship\\gitflow-task\\DesignPatterns\\AbstractFactory\\AbstractFactory\\ConcreteFactories\\ExtraFactory.cs",
+              "RelativeToolTip": "AbstractFactory\\ConcreteFactories\\ExtraFactory.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAABcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-19T10:59:26.059Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "StandartFactory.cs",
+              "DocumentMoniker": "C:\\Internship\\gitflow-task\\DesignPatterns\\AbstractFactory\\AbstractFactory\\ConcreteFactories\\StandartFactory.cs",
+              "RelativeDocumentMoniker": "AbstractFactory\\ConcreteFactories\\StandartFactory.cs",
+              "ToolTip": "C:\\Internship\\gitflow-task\\DesignPatterns\\AbstractFactory\\AbstractFactory\\ConcreteFactories\\StandartFactory.cs",
+              "RelativeToolTip": "AbstractFactory\\ConcreteFactories\\StandartFactory.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA0AAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-19T11:00:18.875Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "StandartWheelDiameter.cs",
+              "DocumentMoniker": "C:\\Internship\\gitflow-task\\DesignPatterns\\AbstractFactory\\AbstractFactory\\ConreteObjects\\Standart\\StandartWheelDiameter.cs",
+              "RelativeDocumentMoniker": "AbstractFactory\\ConreteObjects\\Standart\\StandartWheelDiameter.cs",
+              "ToolTip": "C:\\Internship\\gitflow-task\\DesignPatterns\\AbstractFactory\\AbstractFactory\\ConreteObjects\\Standart\\StandartWheelDiameter.cs",
+              "RelativeToolTip": "AbstractFactory\\ConreteObjects\\Standart\\StandartWheelDiameter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-19T10:52:50.811Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "IWheelDiameter.cs",
+              "DocumentMoniker": "C:\\Internship\\gitflow-task\\DesignPatterns\\AbstractFactory\\AbstractFactory\\AbstractObjects\\IWheelDiameter.cs",
+              "RelativeDocumentMoniker": "AbstractFactory\\AbstractObjects\\IWheelDiameter.cs",
+              "ToolTip": "C:\\Internship\\gitflow-task\\DesignPatterns\\AbstractFactory\\AbstractFactory\\AbstractObjects\\IWheelDiameter.cs",
+              "RelativeToolTip": "AbstractFactory\\AbstractObjects\\IWheelDiameter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-19T10:39:54.984Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AbstractFactory.csproj",
+              "DocumentMoniker": "C:\\Internship\\gitflow-task\\DesignPatterns\\AbstractFactory\\AbstractFactory\\AbstractFactory.csproj",
+              "RelativeDocumentMoniker": "AbstractFactory\\AbstractFactory.csproj",
+              "ToolTip": "C:\\Internship\\gitflow-task\\DesignPatterns\\AbstractFactory\\AbstractFactory\\AbstractFactory.csproj",
+              "RelativeToolTip": "AbstractFactory\\AbstractFactory.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-03-19T09:34:11.038Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "StandartEngine.cs",
+              "DocumentMoniker": "C:\\Internship\\gitflow-task\\DesignPatterns\\AbstractFactory\\AbstractFactory\\ConreteObjects\\Standart\\StandartEngine.cs",
+              "RelativeDocumentMoniker": "AbstractFactory\\ConreteObjects\\Standart\\StandartEngine.cs",
+              "ToolTip": "C:\\Internship\\gitflow-task\\DesignPatterns\\AbstractFactory\\AbstractFactory\\ConreteObjects\\Standart\\StandartEngine.cs",
+              "RelativeToolTip": "AbstractFactory\\ConreteObjects\\Standart\\StandartEngine.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-19T10:47:08.628Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ExtraWheelDiameter.cs",
+              "DocumentMoniker": "C:\\Internship\\gitflow-task\\DesignPatterns\\AbstractFactory\\AbstractFactory\\ConreteObjects\\Extra\\ExtraWheelDiameter.cs",
+              "RelativeDocumentMoniker": "AbstractFactory\\ConreteObjects\\Extra\\ExtraWheelDiameter.cs",
+              "ToolTip": "C:\\Internship\\gitflow-task\\DesignPatterns\\AbstractFactory\\AbstractFactory\\ConreteObjects\\Extra\\ExtraWheelDiameter.cs",
+              "RelativeToolTip": "AbstractFactory\\ConreteObjects\\Extra\\ExtraWheelDiameter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-19T10:52:16.081Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ExtraSuspension.cs",
+              "DocumentMoniker": "C:\\Internship\\gitflow-task\\DesignPatterns\\AbstractFactory\\AbstractFactory\\ConreteObjects\\Extra\\ExtraSuspension.cs",
+              "RelativeDocumentMoniker": "AbstractFactory\\ConreteObjects\\Extra\\ExtraSuspension.cs",
+              "ToolTip": "C:\\Internship\\gitflow-task\\DesignPatterns\\AbstractFactory\\AbstractFactory\\ConreteObjects\\Extra\\ExtraSuspension.cs",
+              "RelativeToolTip": "AbstractFactory\\ConreteObjects\\Extra\\ExtraSuspension.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-19T10:52:00.796Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ExtraEngine.cs",
+              "DocumentMoniker": "C:\\Internship\\gitflow-task\\DesignPatterns\\AbstractFactory\\AbstractFactory\\ConreteObjects\\Extra\\ExtraEngine.cs",
+              "RelativeDocumentMoniker": "AbstractFactory\\ConreteObjects\\Extra\\ExtraEngine.cs",
+              "ToolTip": "C:\\Internship\\gitflow-task\\DesignPatterns\\AbstractFactory\\AbstractFactory\\ConreteObjects\\Extra\\ExtraEngine.cs",
+              "RelativeToolTip": "AbstractFactory\\ConreteObjects\\Extra\\ExtraEngine.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-19T10:46:07.478Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "IEngine.cs",
+              "DocumentMoniker": "C:\\Internship\\gitflow-task\\DesignPatterns\\AbstractFactory\\AbstractFactory\\AbstractObjects\\IEngine.cs",
+              "RelativeDocumentMoniker": "AbstractFactory\\AbstractObjects\\IEngine.cs",
+              "ToolTip": "C:\\Internship\\gitflow-task\\DesignPatterns\\AbstractFactory\\AbstractFactory\\AbstractObjects\\IEngine.cs",
+              "RelativeToolTip": "AbstractFactory\\AbstractObjects\\IEngine.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-19T10:33:40.295Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
