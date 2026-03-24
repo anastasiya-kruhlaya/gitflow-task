@@ -1,4 +1,4 @@
-﻿using Facade;
+﻿namespace Facade;
 
 class Program
 {
@@ -11,6 +11,5 @@ class Program
 
         string result2 = simpleConverter.Convert("anothervideo.mov", "OGG");
         Console.WriteLine($"Conversion complete: {result2}");
-
     }
 }

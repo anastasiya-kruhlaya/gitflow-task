@@ -1,27 +1,25 @@
-﻿
-using AbstractFactory;
-using AbstractFactory.ConcreteFactories;
+﻿using AbstractFactory.ConcreteFactories;
 
-namespace AbstractFactory
+namespace AbstractFactory;
+
+class Program
 {
-    class Program
+    static void Main()
     {
-        static void Main()
-        {
-            ChooseConfig(new EconomyFactory());
-            ChooseConfig(new StandartFactory());
-            ChooseConfig(new ExtraFactory());
-        }
-        public static void ChooseConfig(ICarFactory carFactory)
-        {
-            var engine = carFactory.ChooseEngine();
-            var suspension = carFactory.ChooseSuspension();
-            var wheelDiameter = carFactory.ChooseWheelDiameter();
+        ChooseConfig(new EconomyCarFactory());
+        ChooseConfig(new StandartCarFactory());
+        ChooseConfig(new ExtraCarFactory());
+    }
 
-            engine.TypeOfEngine();
-            suspension.TypeOfSuspension();
-            wheelDiameter.TypeOfWheelDiameter();
+    public static void ChooseConfig(ICarFactory carFactory)
+    {
+        var engine = carFactory.CreateEngine();
+        var suspension = carFactory.CreateSuspension();
+        var wheelDiameter = carFactory.CreateWheelDiameter();
 
-        }
+        engine.TypeOfEngine();
+        suspension.TypeOfSuspension();
+        wheelDiameter.TypeOfWheelDiameter();
     }
 }
+

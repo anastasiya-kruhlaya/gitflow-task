@@ -1,4 +1,4 @@
-﻿using Proxy;
+﻿namespace Proxy;
 
 class Program
 {

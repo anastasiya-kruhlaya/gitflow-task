@@ -1,4 +1,4 @@
-﻿using Singleton;
+﻿namespace Singleton;
 
 class Progrma
 {
@@ -7,11 +7,9 @@ class Progrma
         var database = Database.PublicDatabaseInstance;
         database.Books.Add(new Book("Title1","Author1"));
         Console.WriteLine(database);
+
         var database2 = Database.PublicDatabaseInstance;
         database.Books.Add(new Book("Title2", "Author2"));
         Console.WriteLine(database2.ToString());
-
-
-
     }
 }

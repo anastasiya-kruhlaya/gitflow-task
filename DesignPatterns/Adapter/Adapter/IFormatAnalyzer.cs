@@ -1,13 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿namespace Adapter;
 
-namespace Adapter
+public interface IFormatAnalyzer
 {
-    public interface IFormatAnalyzer
-    {
-        string ReturnBooks(string xmlBooks);
-    }
+    string ReturnBooks(string xmlBooks);
 }
+

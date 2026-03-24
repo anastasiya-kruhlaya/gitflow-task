@@ -4,10 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace AbstractFactory.AbstractObjects
+namespace AbstractFactory;
+
+public enum ConfigurationType
 {
-    public interface IEngine
-    {
-        void TypeOfEngine();
-    }
+    Economy,
+    Extra,
+    Standart
 }
+

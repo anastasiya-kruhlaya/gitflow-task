@@ -4,10 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace AbstractFactory.AbstractObjects
+namespace AbstractFactory.Interfaces;
+
+public interface IHasType
 {
-    public interface ISuspension
-    {
-        void TypeOfSuspension();
-    }
+    ConfigurationType Type { get; }
 }
+
