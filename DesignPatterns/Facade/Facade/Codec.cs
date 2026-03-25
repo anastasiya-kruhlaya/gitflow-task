@@ -2,6 +2,6 @@
 
 public class Codec
 {
-    public string CodecName { get; }
+    public CodecFormat CodecName { get; }
 }
 

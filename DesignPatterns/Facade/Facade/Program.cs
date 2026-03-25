@@ -6,10 +6,10 @@ class Program
     {
         var simpleConverter = new SimpleConverter();
 
-        string result1 = simpleConverter.Convert("myvideo.avi", "MP4");
-        Console.WriteLine($"Conversion complete: {result1}\n");
+        string mp4Result = simpleConverter.Convert("myvideo.avi", CodecFormat.MPEG4);
+        Console.WriteLine($"Conversion complete: {mp4Result}\n");
 
-        string result2 = simpleConverter.Convert("anothervideo.mov", "OGG");
-        Console.WriteLine($"Conversion complete: {result2}");
+        string oggResult = simpleConverter.Convert("anothervideo.mov", CodecFormat.OGG);
+        Console.WriteLine($"Conversion complete: {oggResult}");
     }
 }

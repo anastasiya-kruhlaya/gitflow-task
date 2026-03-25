@@ -2,30 +2,29 @@
 
 namespace Facade;
 
-public class SimpleConverter
+public class SimpleConverter(VideoConverter videoConverter)
 {
-    private readonly VideoConverter _videoConverter;
-    
-    public SimpleConverter()
+    public SimpleConverter() : this(new VideoConverter())
     {
-        _videoConverter = new VideoConverter();
-    } 
-
-    public string Convert(string filename, string format)
+    }
+    public string Convert(string filename, CodecFormat codecFormat)
     {
         var videoFile = new VideoFile(filename);
 
-        Codec codec = format.ToUpper() switch
+        Codec codec = codecFormat switch
         {
-            "MP4" => new MPEG4Codec(),
-            "OGG" => new OGGCodec(),
-            _ => throw new NotSupportedException($"Format '{format}' is not supported")
+            CodecFormat.MPEG4 => new MPEG4Codec(),
+            CodecFormat.OGG => new OGGCodec(),
+            _ => throw new NotSupportedException($"Format '{codecFormat}' is not supported")
         };
 
-        _videoConverter.Convert(videoFile, codec);
+        videoConverter.Convert(videoFile, codec);
 
-        string outputFilename = Path.GetFileNameWithoutExtension(filename) +
-                                $"_converted.{format.ToLower()}";
-        return outputFilename;
+        return GetOutputFile(filename, codecFormat);
+    }
+
+    public static string GetOutputFile(string filename, CodecFormat codecFormat)
+    {
+        return $"{Path.GetFileNameWithoutExtension(filename)}_converted.{codecFormat.ToString().ToLower()}";
     }
 }

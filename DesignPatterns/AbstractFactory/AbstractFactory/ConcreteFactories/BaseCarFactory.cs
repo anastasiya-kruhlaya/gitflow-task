@@ -3,22 +3,33 @@ using AbstractFactory.Models;
 
 namespace AbstractFactory.ConcreteFactories;
 
-public abstract class BaseCarFactory: ICarFactory
+public abstract class BaseCarFactory : ICarFactory
 {
     public abstract ConfigurationType Type { get; }
 
-    public IEngine CreateEngine()
+    protected IEngine CreateEngine()
     {
         return new Engine(Type);
     }
 
-    public ISuspension CreateSuspension()
+    protected ISuspension CreateSuspension()
     {
         return new Suspension(Type);
     }
 
-    public IWheelDiameter CreateWheelDiameter()
+    protected IWheelDiameter CreateWheelDiameter()
     {
         return new WheelDiameter(Type);
+    }
+
+    public void PrintCarConfiguration()
+    {
+        var engine = CreateEngine();
+        var suspension = CreateSuspension();
+        var wheelDiameter = CreateWheelDiameter();
+
+        engine.PrintTypeOfEngine();
+        suspension.PrintTypeOfSuspension();
+        wheelDiameter.PrintTypeOfWheelDiameter();
     }
 }

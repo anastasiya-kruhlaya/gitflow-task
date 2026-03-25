@@ -1,12 +1,12 @@
 ﻿namespace Facade;
 
-public class OGGCodec:Codec
+public class OGGCodec : Codec
 {
-    public string CodecName => "OGG";
+    public CodecFormat CodecName => CodecFormat.OGG;
     
     public OGGCodec()
     {
-        Console.WriteLine("Initialized OGG");
+        Console.WriteLine($"Initialized {CodecName}");
     }
 }
 

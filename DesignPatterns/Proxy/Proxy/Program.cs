@@ -4,7 +4,6 @@ class Program
 {
     static void Main()
     {
-
         IYesterdayRate rateService = new CachedYesterdayRate();
 
         decimal rate1 = rateService.GetRate();

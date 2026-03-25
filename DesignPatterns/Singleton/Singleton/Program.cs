@@ -1,6 +1,6 @@
 ﻿namespace Singleton;
 
-class Progrma
+class Program
 {
     public static void Main()
     {

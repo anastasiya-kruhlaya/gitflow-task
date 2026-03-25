@@ -2,9 +2,9 @@
 
 namespace AbstractFactory.Models;
 
-public class Engine(ConfigurationType configurationType): IEngine
+public class Engine(ConfigurationType configurationType) : IEngine
 {
-    public void TypeOfEngine()
+    public void PrintTypeOfEngine()
     {
         Console.WriteLine($"Your type of engine is {configurationType}");
     }

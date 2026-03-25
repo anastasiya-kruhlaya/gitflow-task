@@ -2,6 +2,6 @@
 
 public interface ISuspension
 {
-    void TypeOfSuspension();
+    void PrintTypeOfSuspension();
 }
 

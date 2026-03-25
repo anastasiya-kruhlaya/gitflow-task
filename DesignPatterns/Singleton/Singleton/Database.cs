@@ -11,6 +11,10 @@ public class Database
         Books = new List<Book>();
     }
 
+    private static Database databaseInstance = new Database();
+
+    public static Database PublicDatabaseInstance => databaseInstance;
+
     public override string ToString()
     {
         var output = new StringBuilder();
@@ -18,11 +22,8 @@ public class Database
         {
             output.AppendLine(book.ToString());
         }
+
         return output.ToString();
     }
-
-    private static Database databaseInstance = new Database();
-
-    public static Database PublicDatabaseInstance => databaseInstance;
 }
 

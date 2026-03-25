@@ -1,16 +1,10 @@
 ﻿namespace Singleton;
 
-public class Book
+public class Book(string title, string author)
 {
-    private string? _title;
-    public string? _author;
+    private string? _title = title;
+    public string? _author =author;
     
-    public Book(string title, string author)
-    {
-        _title = title;
-        _author = author;
-    }
-
     public override string ToString()
     {
         return $"{_title}, {_author}";

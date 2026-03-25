@@ -1,18 +1,13 @@
 ﻿namespace Adapter;
 
-public class Book
+public class Book(string name, string author, int yearOfPublication)
 {
-    public string Name { get; set; }
-    public string Author { get; set; }
-    public int YearOfPublication { get; set; }
+    public string Name { get; set; } = name;
+    public string Author { get; set; } = author;
+    public int YearOfPublication { get; set; } = yearOfPublication;
 
-    public Book() { }
-
-    public Book(string name, string author, int yearOfPublication)
+    public Book() : this(string.Empty, string.Empty, 0)
     {
-        Name = name;
-        Author = author;
-        YearOfPublication = yearOfPublication;
     }
 }
 
