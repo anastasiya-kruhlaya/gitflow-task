@@ -17,7 +17,7 @@ public class BookAdapter : IBooksProvider
         
         using (var stringReader = new StringReader(_library.GetBooksXML()))
         {
-            books = (List<Book>) xmlSerialize.Deserialize(stringReader);
+            books = xmlSerialize.Deserialize(stringReader) as List<Book> ?? [];
         }
 
         var jsonBooks = JsonSerializer.Serialize(books);
