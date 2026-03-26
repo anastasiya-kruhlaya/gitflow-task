@@ -1,6 +1,4 @@
-﻿using AbstractFactory.Interfaces;
-
-namespace AbstractFactory;
+﻿namespace AbstractFactory.Interfaces;
 
 public interface ICarFactory : IHasType
 {

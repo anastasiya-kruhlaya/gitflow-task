@@ -7,6 +7,7 @@ public class SimpleConverter(VideoConverter videoConverter)
     public SimpleConverter() : this(new VideoConverter())
     {
     }
+
     public string Convert(string filename, CodecFormat codecFormat)
     {
         var videoFile = new VideoFile(filename);

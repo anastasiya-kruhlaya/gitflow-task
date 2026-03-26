@@ -2,7 +2,7 @@
 
 public class MPEG4Codec : Codec
 {
-    public CodecFormat CodecName => CodecFormat.MPEG4;
+    public override CodecFormat CodecName => CodecFormat.MPEG4;
     
     public MPEG4Codec()
     {

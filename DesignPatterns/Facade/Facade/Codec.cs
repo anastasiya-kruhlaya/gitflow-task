@@ -2,6 +2,6 @@
 
 public class Codec
 {
-    public CodecFormat CodecName { get; }
+    public virtual CodecFormat CodecName { get; }
 }
 
