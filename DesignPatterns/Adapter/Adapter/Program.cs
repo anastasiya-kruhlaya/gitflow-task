@@ -1,6 +1,4 @@
-﻿using System.Text.Json;
-
-namespace Adapter;
+﻿namespace Adapter;
 
 public class Program()
 {
@@ -10,7 +8,7 @@ public class Program()
         var xml = library.GetBooksXML();
         Console.WriteLine(xml + '\n');
         
-        var xmlToJsonAdapter = new XmlToJsonAdapter(library);
+        var xmlToJsonAdapter = new BookAdapter(library);
         var json = xmlToJsonAdapter.GetBooks();
         Console.WriteLine(json);
     }

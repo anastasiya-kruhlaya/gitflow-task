@@ -2,7 +2,7 @@
 
 public class OGGCodec : Codec
 {
-    public CodecFormat CodecName => CodecFormat.OGG;
+    public override CodecFormat CodecName => CodecFormat.OGG;
     
     public OGGCodec()
     {

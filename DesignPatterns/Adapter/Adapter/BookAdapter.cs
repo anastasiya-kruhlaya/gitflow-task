@@ -3,16 +3,16 @@ using System.Xml.Serialization;
 
 namespace Adapter;
 
-public class XmlToJsonAdapter : IBooksProvider
+public class BookAdapter : IBooksProvider
 {
     private readonly Library _library;
-    public XmlToJsonAdapter(Library library)
+    public BookAdapter(Library library)
     {
         _library = library;
     }
     public string GetBooks()
     {
-        List<Book> books = null;
+        List<Book> books = [];
         var xmlSerialize = new XmlSerializer(typeof(List<Book>));
         
         using (var stringReader = new StringReader(_library.GetBooksXML()))
