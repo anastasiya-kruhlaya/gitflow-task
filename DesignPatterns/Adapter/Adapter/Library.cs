@@ -1,4 +1,5 @@
 ﻿using System.Xml.Serialization;
+
 namespace Adapter;
 
 public class Library()
