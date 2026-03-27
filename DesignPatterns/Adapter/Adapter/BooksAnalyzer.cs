@@ -5,6 +5,7 @@ namespace Adapter;
 public class BooksAnalyzer
 {
     private const int BookAmount = 3;
+
     public static string GetOldestBooks(IBooksProvider booksProvider)
     {
         string jsonBooks = booksProvider.GetBooks();
