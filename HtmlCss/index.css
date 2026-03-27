@@ -1,0 +1,14 @@
+body {
+    font-family: "PT Sans";
+    font-weight: 700;
+    font-style: normal;
+    margin: 0 0 0 0;
+}
+header {
+    display:flex;
+    height: 20vh;
+    justify-content:space-around    
+}
+header ul li {
+    display:inline;
+}
