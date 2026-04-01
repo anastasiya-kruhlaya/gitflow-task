@@ -1,14 +1,13 @@
-body {
-    font-family: "PT Sans";
-    font-weight: 700;
-    font-style: normal;
-    margin: 0 0 0 0;
-}
-header {
-    display:flex;
-    height: 20vh;
-    justify-content:space-around    
-}
-header ul li {
-    display:inline;
-}
+@import url('common/reset.css');
+@import url('common/global.css');
+
+@import url('blocks/header/header.css');
+@import url('blocks/banner/banner.css');
+@import url('blocks/featured/featured.css');
+@import url('blocks/portfolio/portfolio.css');
+@import url('blocks/portfolio/portfolio__row/portfolio__row.css');
+@import url('blocks/social/social__connect/social__connect.css');
+@import url('blocks/social/social__connect/subscribe__content/subscribe__content.css');
+@import url('blocks/social/social__connect/twitter__content/twitter__content.css');
+@import url('blocks/social-media/social-media.css');
+@import url('blocks/link/link.css')

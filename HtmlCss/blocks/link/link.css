@@ -1,0 +1,14 @@
+.link{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #637f83;
+    height:90px;
+    text-align: center;
+}
+
+.link__text{
+    font-size: 14px;
+    color:white;
+    font-weight: 300;
+}

@@ -1,0 +1,30 @@
+.header {
+    max-width: 1920px;
+    width: 100%;    
+    background-color: aliceblue;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    display: flex;
+    /* justify-content: space-around; */
+    align-items: center;
+    height: 90px;
+    padding: 0 370px;
+}
+
+.header__logo {
+    color: rgb(99, 127, 131);
+    font-size: 32px;
+    white-space: nowrap;
+}
+
+.header__menu {
+    display: flex;
+    gap: 36px;
+    margin: 0 424px;
+    list-style: none;
+}
+
+.header__item {
+    cursor: pointer;
+}

@@ -1,0 +1,27 @@
+.social-media{
+    max-width: 1170px;
+    margin: 32px auto 30px auto;
+    display:flex;
+    gap:112px;
+    align-items:center;
+    /* justify-content: center; */
+}
+.social-media__content{
+    display:flex;
+    gap:20px;
+}
+.social-media__image{
+    width:70px;
+    height: 70px;
+}
+.social-media__text{
+    margin-top:18px;
+}
+.social-media__title{
+    font-size:18px;
+}
+.social-media__subtext{
+    font-size:14px;
+    color: rgb(181, 199, 201);
+
+}

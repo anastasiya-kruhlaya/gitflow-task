@@ -1,0 +1,52 @@
+.featured .grid-text {
+    max-width: 700px;
+    margin: 35px auto 40px auto;
+    text-align: center;
+    gap: 25px;
+    white-space: nowrap;
+
+}
+
+.featured .grid-text__subtitle {
+    font-weight: 300;
+}
+
+.featured__grid {
+    background-color: rgb(246, 246, 246);
+    width: 1922px;
+    height: 375px;
+    padding-top: 60px;
+    display: grid;
+    grid-template-columns: repeat(4, 200px); /* 4 колонки по 200px */
+    justify-content: center;
+    gap: 100px;
+    text-align: center;
+}
+.featured__card{
+    width:210px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.featured__grid .featured__title{
+    font-weight: 700;
+    margin-top: 34px;
+    font-size: 22px ;
+}
+.featured__grid .featured__text{
+    font-weight: 500;
+    margin-top: 20px;
+    font-size: 14px ;
+    line-height: 1.429;
+    /* flex: 1; */
+}
+.featured__card .featured__button{
+    margin-top: 20px;
+    width: 70px;
+    height: 33px;
+    background-color: rgb(99, 127, 131);
+    border-radius: 5px;
+    color:white;
+    font-weight: 700;
+    border: none;
+}

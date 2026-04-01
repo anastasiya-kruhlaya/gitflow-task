@@ -1,0 +1,42 @@
+.portfolio__row {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 31px;
+    column-gap: 35px;
+    max-width:1170px;
+    width:100%;
+    align-items: center;
+    margin: 55px auto 0px auto; 
+}
+
+.row__content{
+    display:flex;
+    align-items: flex-start;
+    max-height: 100px;
+    /* margin-top:50px; */
+
+}
+
+.row__image{
+    width:100px;
+    height: 100px;
+}
+.row__text{
+    margin-left:30px;
+    display: flex;
+    flex-direction: column;
+}
+.row__title{
+    font-size:22px;
+}
+.row__subtext{
+    font-size:14px;
+    line-height: 1.857;
+    font-weight:300;
+}
+
+.row__more-link{
+    color:#e4551d;
+    text-decoration: none;
+    cursor:pointer;
+}

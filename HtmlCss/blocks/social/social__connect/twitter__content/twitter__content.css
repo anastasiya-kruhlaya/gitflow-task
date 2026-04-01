@@ -1,0 +1,30 @@
+
+.twitter__content{
+    background-color: rgb(89, 114, 117);
+    border-radius: 5px;
+    height: 103px;
+    margin-top:40px;
+    display:flex;
+    justify-content: center;
+    /* padding:23px 0px 30px 0px; */
+    align-items: center;
+}
+.twitter__image{
+    margin:24px 30px auto 30px;
+    width: 58px;
+    height:48px;
+}
+.twitter__text{
+    font-size:14px;
+    font-weight: 300;
+    color: rgb(181, 199, 201);
+
+    margin-top:-14px;
+    line-height: 1.571;
+
+    padding-right:14px;
+}
+.twitter__mention {
+    font-weight: bold;      
+    text-decoration: underline; 
+}

@@ -1,0 +1,9 @@
+body {
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 900;
+    margin: 0 auto;
+    max-width: 1920px;
+}
+.main {
+    margin-top: 90px;
+}

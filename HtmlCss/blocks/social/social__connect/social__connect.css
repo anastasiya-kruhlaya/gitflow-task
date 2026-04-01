@@ -1,0 +1,35 @@
+.social{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 60px auto 0px auto;
+    background-color:#637f83;
+}
+.social__text{
+    margin:44px auto 37px auto;
+    text-align: center;
+    color:white;
+    width:100%;
+}
+
+.social__text .social__subtext{
+    font-weight: 300;
+}
+
+.social__line{
+    width: 1170px;         
+    height: 2px;
+}
+
+.social__connect{
+    display: flex;
+    align-items: stretch;      
+    justify-content: space-between; 
+    gap: 30px;                 
+    max-width: 1170px;
+    width: 100%;
+    margin: 0 auto;
+    padding-bottom: 48px;   
+
+}
