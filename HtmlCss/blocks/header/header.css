@@ -1,0 +1,37 @@
+.header {
+    position: fixed;
+    z-index: 1;
+    top: 0;
+
+    display: flex;
+    align-items: center;
+
+    width: 100%;
+    max-width: 1920px;
+    height: 90px;
+    padding: 0 370px;
+
+    background-color: aliceblue;
+}
+
+.header__logo {
+    font-size: 32px;
+
+    white-space: nowrap;
+
+    color: rgb(99, 127, 131);
+}
+
+.header__menu {
+    display: flex;
+
+    margin: 0 424px;
+
+    list-style: none;
+
+    gap: 36px;
+}
+
+.header__item {
+    cursor: pointer;
+}
