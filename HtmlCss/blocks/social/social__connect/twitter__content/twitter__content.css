@@ -1,5 +1,5 @@
 
-.twitter__content {
+.social__twitter-content {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -8,14 +8,16 @@
     margin-top: 40px;
 
     border-radius: 5px;
-    background-color: rgb(89, 114, 117);
+    background-color: #597275;
 }
-.twitter__image {
+
+.social__twitter-image {
     width: 58px;
     height: 48px;
     margin: 24px 30px auto 30px;
 }
-.twitter__text {
+
+.social__twitter-text {
     font-size: 14px;
     font-weight: 300;
     line-height: 1.571;
@@ -23,9 +25,10 @@
     margin-top: -14px;
     padding-right: 14px;
 
-    color: rgb(181, 199, 201);
+    color: #b5c7c9;
 }
-.twitter__mention {
+
+.social__twitter-mention {
     font-weight: bold;
 
     text-decoration: underline;

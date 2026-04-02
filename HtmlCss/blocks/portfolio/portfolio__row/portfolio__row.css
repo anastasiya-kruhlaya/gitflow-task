@@ -11,33 +11,36 @@
     column-gap: 35px;
 }
 
-.row__content {
+.portfolio__row-content {
     display: flex;
     align-items: flex-start;
 
     max-height: 100px;
 }
 
-.row__image {
+.portfolio__row-image {
     width: 100px;
     height: 100px;
 }
-.row__text {
+
+.portfolio__row-text {
     display: flex;
     flex-direction: column;
 
     margin-left: 30px;
 }
-.row__title {
+
+.portfolio__row-title {
     font-size: 22px;
 }
-.row__subtext {
+
+.portfolio__row-subtitle {
     font-size: 14px;
     font-weight: 300;
     line-height: 1.857;
 }
 
-.row__more-link {
+.portfolio__row-links {
     cursor: pointer;
     text-decoration: none;
 

@@ -1,10 +1,11 @@
-.portfolio {
+.portfolio-section {
     align-items: center;
 
     width: 100%;
     max-width: 1170px;
     margin: 22px auto 0 auto;
 }
+
 .portfolio__text {
     display: flex;
     align-items: center;
@@ -13,10 +14,12 @@
 
     margin-top: 50px;
 }
+
 .portfolio__subtitle {
     font-weight: 300;
 }
-.controls {
+
+.portfolio__controls {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -26,13 +29,15 @@
     gap: 10px;
 }
 
-.controls .controls__line {
+.portfolio__divider {
     width: 1170px;
     height: 2px;
 }
-.folios__image {
+
+.portfolio__image {
     margin-top: 20px;
 }
+
 .portfolio__button {
     font-size: 18px;
     font-weight: 700;
@@ -46,5 +51,5 @@
     color: white;
     border: none;
     border-radius: 5px;
-    background-color: rgb(228, 85, 29);
+    background-color: #e4551d;
 }

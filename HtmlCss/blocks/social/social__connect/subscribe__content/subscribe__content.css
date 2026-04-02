@@ -1,29 +1,49 @@
-.subscribe__content {
+.social__subscribe-content {
     display: column;
 
     margin: 36px auto 0 auto;
 }
-.subscribe__info {
+
+.social__subscribe-info {
     display: flex;
 
     margin-bottom: 27px;
 }
-.subscribe__image {
+
+.social__subscribe-image {
     width: 40px;
     height: 32px;
 }
-.subscribe__text {
+
+.social__subscribe-text {
     margin-left: 20px;
 
-    color: white;
+    color: #ffffff;
 }
-.subscribe__title {
+
+.social__subscribe-title {
     font-size: 18px;
 }
-.subscribe__subtext {
+
+.social__subscribe-subtitle {
     font-size: 14px;
 }
-.subscribe__button {
+
+.social__subscribe-form {
+    display: flex;
+
+    gap: 11px;
+}
+
+.social__subscribe-input {
+    width: 459px;
+    height: 40px;
+
+    border-radius: 5px;
+    background-color: #597275;
+}
+
+.social__subscribe-button {
     font-size: 18px;
     font-weight: 700;
 
@@ -33,17 +53,5 @@
     color: white;
     border: none;
     border-radius: 5px;
-    background-color: rgb(89, 114, 117);
-}
-.subscribe__form {
-    display: flex;
-
-    gap: 11px;
-}
-.subscribe__input {
-    width: 459px;
-    height: 40px;
-
-    border-radius: 5px;
-    background-color: rgb(89, 114, 117);
+    background-color: #597275;
 }

@@ -1,4 +1,4 @@
-.social {
+.footer__social {
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -8,7 +8,7 @@
 
     background-color: #637f83;
 }
-.social__text {
+.footer__social-text {
     width: 100%;
     margin: 44px auto 37px auto;
 
@@ -17,16 +17,16 @@
     color: white;
 }
 
-.social__text .social__subtext {
+.footer__social-subtitle {
     font-weight: 300;
 }
 
-.social__line {
+.footer__social-line {
     width: 1170px;
     height: 2px;
 }
 
-.social__connect {
+.footer__social-connect {
     display: flex;
     align-items: stretch;
     justify-content: space-between;

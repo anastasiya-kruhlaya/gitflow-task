@@ -6,12 +6,11 @@
     display: flex;
     align-items: center;
 
-    width: 100%;
     max-width: 1920px;
     height: 90px;
     padding: 0 370px;
 
-    background-color: aliceblue;
+    background-color: #f0f8ff;
 }
 
 .header__logo {
@@ -19,7 +18,7 @@
 
     white-space: nowrap;
 
-    color: rgb(99, 127, 131);
+    color: #637f83;
 }
 
 .header__menu {
