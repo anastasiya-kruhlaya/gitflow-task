@@ -1,4 +1,4 @@
-.footer__link {
+.footer-link {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -10,7 +10,7 @@
     background-color: #637f83;
 }
 
-.footer__link-text {
+.footer-link__text {
     font-size: 14px;
     font-weight: 300;
 

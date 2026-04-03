@@ -7,6 +7,7 @@
 
     gap: 25px;
 }
+
 .featured__title {
     font-weight: 700;
     font-size: 34px;
@@ -38,6 +39,11 @@
     flex-direction: column;
 
     width: 210px;
+}
+.featured__card-image{
+    width: 70px;
+    height: 70px;
+
 }
 
 .featured__card-title {

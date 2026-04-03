@@ -1,4 +1,4 @@
-.portfolio__row {
+.portfolio-row {
     display: grid;
     align-items: center;
 
@@ -11,36 +11,36 @@
     column-gap: 35px;
 }
 
-.portfolio__row-content {
+.portfolio-row__content {
     display: flex;
     align-items: flex-start;
 
     max-height: 100px;
 }
 
-.portfolio__row-image {
+.portfolio-row__image {
     width: 100px;
     height: 100px;
 }
 
-.portfolio__row-text {
+.portfolio-row__text {
     display: flex;
     flex-direction: column;
 
     margin-left: 30px;
 }
 
-.portfolio__row-title {
+.portfolio-row__title {
     font-size: 22px;
 }
 
-.portfolio__row-subtitle {
+.portfolio-row__subtitle {
     font-size: 14px;
     font-weight: 300;
     line-height: 1.857;
 }
 
-.portfolio__row-links {
+.portfolio-row__links {
     cursor: pointer;
     text-decoration: none;
 

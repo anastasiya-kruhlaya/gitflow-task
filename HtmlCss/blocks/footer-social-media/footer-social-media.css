@@ -1,0 +1,39 @@
+.footer-social-media {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width:100%;
+    padding-top: 32px;
+    padding-bottom: 32px;
+
+    background-color: #ffffff;
+    position:relative;
+    z-index: 2;
+    gap: 140px;
+}
+
+.footer-social-media__content {
+    display: flex;
+
+    gap: 20px;
+}
+
+.footer-social-media__image {
+    width: 70px;
+    height: 70px;
+}
+
+.footer-social-media__text {
+    margin-top: 18px;
+}
+
+.footer-social-media__title {
+    font-size: 18px;
+}
+
+.footer-social-media__subtext {
+    font-size: 14px;
+
+    color: #b5c7c9;
+}

@@ -5,9 +5,9 @@
 @import url('blocks/banner/banner.css');
 @import url('blocks/featured/featured.css');
 @import url('blocks/portfolio/portfolio.css');
-@import url('blocks/portfolio/portfolio__row/portfolio__row.css');
-@import url('blocks/social/social__connect/social__connect.css');
-@import url('blocks/social/social__connect/subscribe__content/subscribe__content.css');
-@import url('blocks/social/social__connect/twitter__content/twitter__content.css');
-@import url('blocks/social-media/social-media.css');
-@import url('blocks/link/link.css')
+@import url('blocks/portfolio/portfolio-row/portfolio-row.css');
+@import url('blocks/social/footer-social-connect/footer-social.css');
+@import url('blocks/social/footer-social-connect/footer-social-cta/footer-social-cta.css');
+@import url('blocks/social/footer-social-connect/footer-social-twitter/footer-social-twitter.css');
+@import url('blocks/footer-social-media/footer-social-media.css');
+@import url('blocks/footer-link/footer-link.css')

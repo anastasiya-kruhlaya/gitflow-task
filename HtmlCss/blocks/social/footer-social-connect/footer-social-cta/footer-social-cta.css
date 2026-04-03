@@ -1,41 +1,41 @@
-.social__subscribe-content {
+.footer-social-cta__content {
     display: column;
 
     margin: 36px auto 0 auto;
 }
 
-.social__subscribe-info {
+.footer-social-cta__info {
     display: flex;
 
     margin-bottom: 27px;
 }
 
-.social__subscribe-image {
+.footer-social-cta__image {
     width: 40px;
     height: 32px;
 }
 
-.social__subscribe-text {
+.footer-social-cta__text {
     margin-left: 20px;
 
     color: #ffffff;
 }
 
-.social__subscribe-title {
+.footer-social-cta__title {
     font-size: 18px;
 }
 
-.social__subscribe-subtitle {
+.footer-social-cta__subtitle {
     font-size: 14px;
 }
 
-.social__subscribe-form {
+.footer-social-cta__form {
     display: flex;
 
     gap: 11px;
 }
 
-.social__subscribe-input {
+.footer-social-cta__input {
     width: 459px;
     height: 40px;
 
@@ -43,7 +43,7 @@
     background-color: #597275;
 }
 
-.social__subscribe-button {
+.footer-social-cta__button {
     font-size: 18px;
     font-weight: 700;
 
