@@ -1,0 +1,57 @@
+.footer-social-cta__content {
+    display: column;
+
+    margin: 36px auto 0 auto;
+}
+
+.footer-social-cta__info {
+    display: flex;
+
+    margin-bottom: 27px;
+}
+
+.footer-social-cta__image {
+    width: 40px;
+    height: 32px;
+}
+
+.footer-social-cta__text {
+    margin-left: 20px;
+
+    color: #ffffff;
+}
+
+.footer-social-cta__title {
+    font-size: 18px;
+}
+
+.footer-social-cta__subtitle {
+    font-size: 14px;
+}
+
+.footer-social-cta__form {
+    display: flex;
+
+    gap: 11px;
+}
+
+.footer-social-cta__input {
+    width: 459px;
+    height: 40px;
+
+    border-radius: 5px;
+    background-color: #597275;
+}
+
+.footer-social-cta__button {
+    font-size: 18px;
+    font-weight: 700;
+
+    width: 100px;
+    height: 40px;
+
+    color: white;
+    border: none;
+    border-radius: 5px;
+    background-color: #597275;
+}

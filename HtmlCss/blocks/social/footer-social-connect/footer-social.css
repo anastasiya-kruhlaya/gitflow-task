@@ -1,0 +1,41 @@
+.footer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    
+    margin: 60px auto 0 auto;
+
+    background-color: #637f83;
+}
+
+.footer__social-text {
+    width: 100%;
+    margin: 44px auto 37px auto;
+
+    text-align: center;
+
+    color: #ffffff;
+}
+
+.footer__social-subtitle {
+    font-weight: 300;
+}
+
+.footer__divider {
+    width: 1170px;
+    height: 2px;
+}
+
+.footer__social-connect {
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+
+    width: 100%;
+    max-width: 1170px;
+    margin: 0 auto;
+    padding-bottom: 48px;
+
+    gap: 30px;
+}
