@@ -1,4 +1,4 @@
-﻿using AsynchronousMethods;
+﻿namespace AsynchronousMethods;
 
 class Program
 {
