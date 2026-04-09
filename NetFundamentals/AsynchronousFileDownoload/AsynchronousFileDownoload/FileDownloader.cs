@@ -1,14 +1,26 @@
 ﻿namespace AsynchronousFileDownoload;
+
 public class FileDownloader
 {
     public static readonly HttpClient httpClient = new HttpClient();
+
     public static async Task DownloadFileAsync(string url, CancellationToken cancellationToken)
+    {
+        using HttpResponseMessage response = await httpClient.GetAsync(url, cancellationToken);
+        response.EnsureSuccessStatusCode();
+
+        string filePath = GetFilePath(url, response);
+
+        byte[] fileBytes = await response.Content.ReadAsByteArrayAsync(cancellationToken);
+        await File.WriteAllBytesAsync(filePath, fileBytes, cancellationToken);
+
+        Console.WriteLine($"File saved successfully: {filePath}");
+    }
+
+    public static string GetFilePath(string url, HttpResponseMessage response)
     {
         string directory = Path.Combine(AppContext.BaseDirectory, "Downloads");
         Directory.CreateDirectory(directory);
-
-        using HttpResponseMessage response = await httpClient.GetAsync(url, cancellationToken);
-        response.EnsureSuccessStatusCode();
 
         string fileName = Path.GetFileName(new Uri(url).LocalPath);
 
@@ -21,11 +33,6 @@ public class FileDownloader
                 : fileName + extension;
         }
 
-        string filePath = Path.Combine(directory, fileName);
-
-        byte[] fileBytes = await response.Content.ReadAsByteArrayAsync(cancellationToken);
-        await File.WriteAllBytesAsync(filePath, fileBytes, cancellationToken);
-
-        Console.WriteLine($"File saved successfully: {filePath}");
+        return Path.Combine(directory, fileName);
     }
 }
