@@ -9,9 +9,6 @@
 
   <ItemGroup>
     <EditorConfigFiles Remove="C:\Internship\gitflow-task\NetFundamentals\AsynchronousMethods\AsynchronousMethods\.editorconfig" />
-  </ItemGroup>
-
-  <ItemGroup>
     <None Include="C:\Internship\gitflow-task\NetFundamentals\AsynchronousMethods\AsynchronousMethods\.editorconfig" />
   </ItemGroup>
 

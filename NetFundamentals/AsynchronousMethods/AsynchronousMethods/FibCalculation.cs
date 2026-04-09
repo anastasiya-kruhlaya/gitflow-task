@@ -31,12 +31,7 @@ public class FibCalculation
 
     public static int Fib(int i)
     {
-        if(i <= 1)
-        {
 
-            return i;
-        }
-
-        return Fib(i - 1) + Fib(i - 2);
+        return i <= 1 ? i : Fib(i - 1) + Fib(i - 2);
     }
 }
