@@ -1,0 +1,48 @@
+root = true
+
+[*.cs]
+
+indent_style = space
+indent_size = 4
+tab_width = 4
+
+end_of_line = crlf
+insert_final_newline = false
+
+dotnet_sort_system_directives_first = true
+dotnet_separate_import_directive_groups = false
+dotnet_diagnostic.IDE0005.severity = warning
+
+csharp_style_namespace_declarations = file_scoped
+
+csharp_style_prefer_primary_constructors = true
+
+csharp_style_pattern_matching_over_is_with_cast_check = true
+csharp_style_prefer_null_check_over_type_check = true
+
+csharp_indent_block_contents = true
+csharp_indent_braces = false
+
+
+dotnet_style_allow_multiple_blank_lines_experimental = false
+
+csharp_new_line_before_members_in_object_initializers = true
+
+csharp_new_line_before_open_brace = all
+
+csharp_style_expression_bodied_methods = false
+
+csharp_space_after_colon_in_inheritance_clause = true
+csharp_space_before_colon_in_inheritance_clause = true
+
+csharp_space_after_comma = true
+csharp_space_around_binary_operators = before_and_after
+
+csharp_prefer_braces = true
+
+csharp_style_prefer_method_group_conversion = true
+csharp_style_prefer_simple_using_statement = true
+
+csharp_style_var_elsewhere = false
+csharp_style_var_for_built_in_types = false
+csharp_style_var_when_type_is_apparent = false
