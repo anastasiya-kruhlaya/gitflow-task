@@ -2,9 +2,10 @@
 
 namespace GenericObjectMapper;
 
-public class ObjectMapper
+public static class ObjectMapper
 {
-    public static TDestination Map<TSource, TDestination>(TSource source) where TDestination : new()
+    public static TDestination Map<TSource, TDestination>(TSource source) 
+        where TDestination : new()
     {
         if (source is null)
         {
@@ -13,16 +14,20 @@ public class ObjectMapper
 
         TDestination destination = new TDestination();
 
-        PropertyInfo[] sourceProperties = source.GetType().GetProperties();
-        PropertyInfo[] destProperties = destination.GetType().GetProperties();
+        PropertyInfo[] sourceProperties = source
+            .GetType()
+            .GetProperties();
+        PropertyInfo[] destProperties = destination
+            .GetType()
+            .GetProperties();
 
         foreach (var sourceProperty in sourceProperties)
         {
             foreach (var destProperty in destProperties)
             {
-                if (sourceProperty.Name == destProperty.Name &&
-                   sourceProperty.PropertyType == destProperty.PropertyType &&
-                   destProperty.CanWrite)
+                if (sourceProperty.Name == destProperty.Name 
+                   && sourceProperty.PropertyType == destProperty.PropertyType
+                   && destProperty.CanWrite)
                 {
                     var value = sourceProperty.GetValue(source);
                     destProperty.SetValue(destination, value);
