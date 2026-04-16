@@ -31,7 +31,8 @@ public class FibCalculation
 
     public static int Fib(int i)
     {
-
-        return i <= 1 ? i : Fib(i - 1) + Fib(i - 2);
+        return i <= 1 
+            ? i 
+            : Fib(i - 1) + Fib(i - 2);
     }
 }
